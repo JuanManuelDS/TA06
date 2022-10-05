@@ -7,7 +7,7 @@ public class Ejercicio7 {
 		String moneda = JOptionPane
 				.showInputDialog("Ingrese el nómbre de la moneda a la que quiere convertir \n Libras, Dólares, Yenes")
 				.toLowerCase();
-		double cantidad = Integer.parseInt(JOptionPane.showInputDialog("Ingrese la cantidad a convertir"));
+		double cantidad = Integer.parseInt(JOptionPane.showInputDialog("Ingrese la cantidad de euros que desea convertir a "+moneda));
 
 		moneyConverter(cantidad, moneda);
 	}

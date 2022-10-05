@@ -1,3 +1,4 @@
+
 import javax.swing.JOptionPane;
 
 public class Ejercicio8 {
@@ -8,16 +9,16 @@ public class Ejercicio8 {
 		numeros = rellenarArray(numeros);
 		imprimirArray(numeros);
 	}
-	
+
 	public static int[] rellenarArray(int arr[]) {
-		for(int i = 0; i<arr.length; i++) {
+		for (int i = 0; i < arr.length; i++) {
 			arr[i] = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un número"));
 		}
 		return arr;
 	}
-	
+
 	public static void imprimirArray(int arr[]) {
-		for(int i = 0; i<arr.length; i++) {
+		for (int i = 0; i < arr.length; i++) {
 			System.out.println("arr[" + i + "] = " + arr[i]);
 		}
 	}
